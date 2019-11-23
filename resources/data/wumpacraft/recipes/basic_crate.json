@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:plankst"
+    },
+    "X": {
+      "item": "wumpacraft:wumpa_fruit"
+    }
+  },
+  "result": {
+    "item": "wumpacraft:basic_crate"
+  }
+}
