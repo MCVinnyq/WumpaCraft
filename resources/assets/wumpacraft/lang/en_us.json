@@ -1,0 +1,12 @@
+{
+	
+	"language.name": "English",
+	"language.region": "United States",
+	"language.code": "en_us",
+	
+	"itemGroup.wumpacraft": "Wumpacraft",
+	"item.wumpacraft.wumpa_fruit": "Wumpa Fruit",
+	"item.wumpacraft.golden_wumpa_fruit": "Golden Wumpa Fruit",
+	"block.wumpacraft.basic_crate": "Basic Crate"
+	
+}
