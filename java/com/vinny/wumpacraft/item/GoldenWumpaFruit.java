@@ -1,12 +1,13 @@
 package com.vinny.wumpacraft.item;
 
+import com.vinny.wumpacraft.init.WumpacraftEffects;
+
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.UseAction;
 import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effects;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
@@ -44,7 +45,7 @@ public class GoldenWumpaFruit extends Item {
 		if(!player.isCreative() || player == null) {
 			
 			stack.shrink(1);
-			player.addPotionEffect(new EffectInstance(Effects.ABSORPTION, 999999999, 4, false, false, false));
+			player.addPotionEffect(new EffectInstance(WumpacraftEffects.GOLDEN_HEARTS_EFFECT, 999999999, 4, false, false, false));
 			
 		}
 		
