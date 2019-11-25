@@ -24,7 +24,7 @@ public class WumpacraftWorldGen {
 		@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Biome> event) {
 			
-			Biomes.BEACH.addFeature(Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(new BasicCrateFeature(NoFeatureConfig::deserialize), IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(10)));
+			Biomes.BEACH.addFeature(Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(new BasicCrateFeature(NoFeatureConfig::deserialize), IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(50)));
 			
 		}
 		
