@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "wumpacraft:block/basic_crate_top",
+        "side": "wumpacraft:block/basic_crate_front"
+    }
+}
